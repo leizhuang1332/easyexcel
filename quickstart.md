@@ -10,7 +10,7 @@ quickstart：http://code.jms.com/project/jmsth/api/yl-jmsth-spm-easy-excel-api/-
 
 ```xml
 <dependency>
-    <groupId>com.yl</groupId>
+    <groupId>com.lz</groupId>
     <artifactId>easyexcel</artifactId>
     <version>2.2.11.7</version>
 </dependency>
@@ -127,14 +127,14 @@ public class DemoData {
 翻译示例，I18nTranslator.class
 
 ```java
-// 以泰国翻译为例，路径为：yl-jmsth-ft-api com.yl.ft.api.utils.I18nTranslator
+// 以泰国翻译为例，路径为：yl-jmsth-ft-api com.lz.ft.api.utils.I18nTranslator
 public class I18nTranslator implements Translator {
     /**
      * 目标语言（英文缩写，泰国:TH, 中国:CN）
      */
     private String language;
 
-    private com.yl.platform.i18n.helper.YlI18nHelper ylI18nHelper;
+    private com.lz.platform.i18n.helper.YlI18nHelper ylI18nHelper;
 
     public I18nTranslator(String language) {
         this.language = language;
